@@ -1,0 +1,429 @@
+2025-05-13 19:45:51,553 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:45:51,567 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:45:51,571 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:45:51,571 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:45:51,572 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:45:51,572 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:45:51,572 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:45:51,572 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:45:51,572 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:46:33,160 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:46:33,167 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:46:33,171 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:46:33,171 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:46:33,171 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:46:33,172 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:46:50,194 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:46:50,202 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:46:50,203 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:46:50,203 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:46:50,206 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:46:50,206 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:46:50,207 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:46:50,207 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:46:50,207 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:46:50,208 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:46:50,208 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:46:50,208 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:46:50,208 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:48:53,855 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:48:53,862 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:48:53,864 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:48:53,864 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:48:53,865 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:48:53,865 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:48:53,865 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:48:53,865 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:48:53,865 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:48:53,865 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:49:03,520 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:49:03,527 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:49:03,527 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:49:03,528 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:49:03,530 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:49:03,531 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:49:03,531 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:49:03,531 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:49:03,531 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:49:03,531 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:49:03,532 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:49:03,532 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:49:32,774 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:49:32,782 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:49:37,583 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:49:37,589 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:49:37,589 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:49:37,590 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:49:37,593 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:49:37,593 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:49:37,594 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:49:37,594 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:49:37,594 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:49:37,594 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:49:37,594 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:49:37,594 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:50:38,618 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:50:38,624 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:50:38,627 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:50:38,627 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:50:38,627 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:50:38,627 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:50:38,628 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:50:38,628 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:50:38,628 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:50:38,628 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:50:43,227 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:50:43,233 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:50:43,233 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:50:43,233 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:50:43,236 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:50:43,236 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:50:43,236 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:50:43,236 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:50:43,237 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:50:43,237 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:50:43,237 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:50:43,237 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:50:43,239 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:50:54,625 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56170,localport=31010]
+2025-05-13 19:51:26,736 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:51:26,742 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:51:26,745 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:51:26,745 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:51:26,745 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:51:26,746 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:51:26,746 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:51:26,746 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:51:26,746 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:51:26,746 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:51:31,393 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:51:31,399 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:51:31,400 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:51:31,400 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:51:31,403 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:51:31,403 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:51:31,405 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:51:31,405 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:51:31,406 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:51:31,406 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:51:31,406 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:51:31,406 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:51:31,407 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:52:00,773 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56191,localport=31010]
+2025-05-13 19:52:07,783 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:52:07,789 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:52:07,792 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:52:07,792 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:52:07,792 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:52:07,792 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:52:07,793 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:52:07,793 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:52:07,793 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:52:07,793 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:52:10,685 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:52:10,691 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:52:10,691 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:52:10,692 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:52:10,695 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:52:10,695 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:52:10,696 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:52:10,696 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:52:10,696 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:52:10,696 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:52:10,696 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:52:10,696 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:52:10,697 INFO u.c.c.ManejadorSockets [Thread-0] Iniciando el hilo
+2025-05-13 19:52:10,698 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:53:55,738 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:53:55,745 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:53:55,746 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:53:55,746 WARN u.c.c.Nodo [main] El puerto: 31011, esta ocupado
+2025-05-13 19:53:55,746 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31012
+2025-05-13 19:53:55,746 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:53:55,749 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:53:55,749 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:53:55,749 INFO u.c.c.ManejadorSockets [Thread-1] Iniciando el hilo
+2025-05-13 19:53:55,749 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:53:55,750 INFO u.c.c.ManejadorSockets [Thread-1] Esperando mensaje
+2025-05-13 19:53:55,750 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:53:55,750 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:53:55,750 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:53:55,750 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:53:55,750 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:53:55,750 INFO u.c.c.ManejadorSockets [Thread-1] Iniciando el hilo
+2025-05-13 19:53:55,752 INFO u.c.c.ManejadorSockets [Thread-1] Esperando mensaje
+2025-05-13 19:53:56,884 ERROR u.c.c.ManejadorSockets [Thread-1] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56259,localport=31011]
+2025-05-13 19:53:56,884 ERROR u.c.c.ManejadorSockets [Thread-1] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56258,localport=31010]
+2025-05-13 19:53:59,211 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56223,localport=31010]
+2025-05-13 19:54:04,989 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:54:04,995 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:54:04,998 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:54:04,998 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:54:04,999 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:54:04,999 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:54:04,999 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:54:04,999 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:54:04,999 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:54:05,000 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:54:25,286 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:54:25,293 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:54:29,423 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:54:29,431 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:54:29,431 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:54:29,432 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:54:29,434 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:54:29,435 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:54:29,435 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 19:54:29,435 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:54:29,435 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:54:29,435 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:54:29,435 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:54:29,435 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 19:54:29,436 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:54:29,436 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:54:29,436 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:54:29,437 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:54:29,440 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@6a74b63, datos=[B@50703c55}, del socket: Socket[addr=localhost/127.0.0.1,port=31010,localport=56279]
+2025-05-13 19:54:29,440 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@671717da, datos=[B@7d6b2816}, del socket: Socket[addr=/127.0.0.1,port=56279,localport=31010]
+2025-05-13 19:54:29,440 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:54:29,441 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:55:43,817 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56279,localport=31010]
+2025-05-13 20:03:55,461 WARN u.c.c.Cliente [main] No se logro la conexion con: 31010
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:03:55,468 WARN u.c.c.Cliente [main] No se logro la conexion con: 31011
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:03:55,468 WARN u.c.c.Cliente [main] No se logro la conexion con: 31012
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:03:55,469 WARN u.c.c.Cliente [main] No se logro la conexion con: 31013
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:03:55,469 WARN u.c.c.Cliente [main] No se logro la conexion con: 31014
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:04:15,897 WARN u.c.c.Cliente [main] No se logro la conexion con: 31010
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:04:15,905 WARN u.c.c.Cliente [main] No se logro la conexion con: 31011
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:04:15,906 WARN u.c.c.Cliente [main] No se logro la conexion con: 31012
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:04:15,906 WARN u.c.c.Cliente [main] No se logro la conexion con: 31013
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:04:15,906 WARN u.c.c.Cliente [main] No se logro la conexion con: 31014
+java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:686) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:555) ~[?:?]
+	at java.base/java.net.Socket.<init>(Socket.java:324) ~[?:?]
+	at up.clasecd.calculadora.Cliente.establecerConexion(Cliente.java:20) [classes/:?]
+	at up.clasecd.calculadora.Cliente.main(Cliente.java:39) [classes/:?]
+2025-05-13 20:16:54,980 INFO u.c.c.Cliente [main] Se logro la conexion con:  + i
+2025-05-13 20:16:54,985 INFO u.c.c.Cliente [Thread-0] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@2f6bf66e, datos=[B@6a697de7}
+2025-05-13 20:16:54,985 WARN u.c.c.Cliente [Thread-0] Mensaje fuera del protocolo
+2025-05-13 20:17:18,467 ERROR u.c.c.Cliente [Thread-0] Cliente desconectado
+2025-05-13 20:26:12,144 INFO u.c.c.Cliente [main] Se logro la conexion con:  + i
+2025-05-13 20:26:12,150 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@b9eed5d, datos=[B@4e9c624a}
+2025-05-13 20:26:12,150 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@79ea65e0, datos=[B@2015114}
+2025-05-13 20:26:12,151 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:12,152 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@73097a32, datos=[B@4e75673c}
+2025-05-13 20:26:12,152 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:17,155 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@599b7c27, datos=[B@6f40f580}
+2025-05-13 20:26:17,156 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@e7094c2, datos=[B@4c4ecbdb}
+2025-05-13 20:26:17,157 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:22,157 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@3fffbc0d, datos=[B@6d631b8a}
+2025-05-13 20:26:22,159 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@742ee08a, datos=[B@118725b4}
+2025-05-13 20:26:22,159 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:27,163 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@6f9b3845, datos=[B@71f2cc3}
+2025-05-13 20:26:27,164 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@1b5b65c2, datos=[B@21f17561}
+2025-05-13 20:26:27,165 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:32,165 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@4542e7f9, datos=[B@30081b90}
+2025-05-13 20:26:32,167 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@22d8eb65, datos=[B@adac00f}
+2025-05-13 20:26:32,168 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:37,172 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@6e744c4, datos=[B@786009ef}
+2025-05-13 20:26:37,173 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@4aefd1e3, datos=[B@601fefa2}
+2025-05-13 20:26:37,174 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:42,174 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@2a4f4435, datos=[B@5a6b1e77}
+2025-05-13 20:26:42,175 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@579a307, datos=[B@59ffd11f}
+2025-05-13 20:26:42,175 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:26:47,177 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@6696b09a, datos=[B@1e41e2d6}
+2025-05-13 20:26:47,178 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@6d2b630a, datos=[B@72d6f3f2}
+2025-05-13 20:26:47,178 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:31:44,030 INFO u.c.c.Cliente [main] Se logro la conexion con:  + i
+2025-05-13 20:31:44,036 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@6fa9804d, datos=[B@6dc36191}
+2025-05-13 20:31:44,036 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@6b1b5ba1, datos=[B@2e19c8a6}
+2025-05-13 20:31:44,037 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:31:44,037 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@3cfdc44e, datos=[B@4efa36f9}
+2025-05-13 20:31:44,037 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:31:49,042 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@4521ac06, datos=[B@3edac7fb}
+2025-05-13 20:31:49,044 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@2944ad18, datos=[B@38d79e5d}
+2025-05-13 20:31:49,045 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:31:54,047 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@7a22f7aa, datos=[B@787134a5}
+2025-05-13 20:31:54,049 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@6adae2bd, datos=[B@75885ce1}
+2025-05-13 20:31:54,050 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:31:59,053 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@3078f631, datos=[B@58f51ada}
+2025-05-13 20:31:59,054 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@79281325, datos=[B@7d095f2b}
+2025-05-13 20:31:59,054 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:32:41,090 INFO u.c.c.Cliente [main] Se logro la conexion con:  + i
+2025-05-13 20:32:41,094 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@414872a7, datos=[B@44af4ea}
+2025-05-13 20:32:41,095 WARN u.c.c.Cliente [Thread-1] Mensaje fuera del protocolo
+2025-05-13 20:32:41,094 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@3a408c67, datos=[B@7919c05f}
+2025-05-13 20:32:41,095 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@73487832, datos=[B@492b12f6}
+2025-05-13 20:32:41,095 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@73487832, datos=[B@5612052e}
+2025-05-13 20:32:41,096 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@3b6ac006, datos=[B@bd3a6b1}
+2025-05-13 20:32:41,096 INFO u.c.c.Cliente [Thread-1] Resultado: 4
+2025-05-13 20:32:46,101 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@9ced3dc, datos=[B@7d7588a0}
+2025-05-13 20:32:46,103 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@1a7eb99f, datos=[B@5c83f48b}
+2025-05-13 20:32:46,103 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@1a7eb99f, datos=[B@318475ed}
+2025-05-13 20:32:46,104 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@27f4ab42, datos=[B@48a95c62}
+2025-05-13 20:32:46,104 INFO u.c.c.Cliente [Thread-1] Resultado: 124
+2025-05-13 20:32:51,107 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@50e15086, datos=[B@22bdfab2}
+2025-05-13 20:32:51,109 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@b4dce50, datos=[B@19f4f9c9}
+2025-05-13 20:32:51,110 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@b4dce50, datos=[B@1bd8ff0e}
+2025-05-13 20:32:51,111 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@1910fa5b, datos=[B@7c4a9867}
+2025-05-13 20:32:51,112 INFO u.c.c.Cliente [Thread-1] Resultado: 178
+2025-05-13 20:32:56,113 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@5d128d0a, datos=[B@c733e80}
+2025-05-13 20:32:56,115 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@424e0c96, datos=[B@1eb2bb5e}
+2025-05-13 20:32:56,116 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@424e0c96, datos=[B@6e58f1}
+2025-05-13 20:32:56,117 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@284f713b, datos=[B@1ad7f218}
+2025-05-13 20:32:56,117 INFO u.c.c.Cliente [Thread-1] Resultado: 123
+2025-05-13 20:33:01,117 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@56cc3ae8, datos=[B@1be922e9}
+2025-05-13 20:33:01,120 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@1134d257, datos=[B@63efb950}
+2025-05-13 20:33:01,121 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@1134d257, datos=[B@30facabf}
+2025-05-13 20:33:01,125 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@1518b98a, datos=[B@22896714}
+2025-05-13 20:33:01,126 INFO u.c.c.Cliente [Thread-1] Resultado: 100
+2025-05-13 20:33:06,122 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@525a9643, datos=[B@474825b6}
+2025-05-13 20:33:06,124 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@3c326f2c, datos=[B@5a7bf527}
+2025-05-13 20:33:06,125 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@3c326f2c, datos=[B@affd30b}
+2025-05-13 20:33:06,127 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@63a7b487, datos=[B@4c43fcd0}
+2025-05-13 20:33:06,127 INFO u.c.c.Cliente [Thread-1] Resultado: 74
+2025-05-13 20:33:11,124 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@70e45ccd, datos=[B@22c8c652}
+2025-05-13 20:33:11,125 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@4994fab2, datos=[B@3d870f00}
+2025-05-13 20:33:11,126 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@4994fab2, datos=[B@63da97bb}
+2025-05-13 20:33:11,127 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@30ac526c, datos=[B@5e837fa1}
+2025-05-13 20:33:11,127 INFO u.c.c.Cliente [Thread-1] Resultado: 90
+2025-05-13 20:33:16,131 INFO u.c.c.Cliente [Thread-0] se solicita: Mensaje{numeroServicio=1, evento=[B@24a6b4c6, datos=[B@22454071}
+2025-05-13 20:33:16,133 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@5bf9847e, datos=[B@6ca9b7f5}
+2025-05-13 20:33:16,134 INFO u.c.c.Cliente [Thread-1] se envia respuesta: Mensaje{numeroServicio=2, evento=[B@5bf9847e, datos=[B@3ec4a73e}
+2025-05-13 20:33:16,136 INFO u.c.c.Cliente [Thread-1] se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@7bffb930, datos=[B@6c320845}
+2025-05-13 20:33:16,136 INFO u.c.c.Cliente [Thread-1] Resultado: 114

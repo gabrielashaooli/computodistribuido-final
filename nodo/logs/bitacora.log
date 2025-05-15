@@ -1,0 +1,329 @@
+2025-05-13 19:45:51,553 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:45:51,567 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:45:51,571 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:45:51,571 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:45:51,572 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:45:51,572 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:45:51,572 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:45:51,572 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:45:51,572 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:46:33,160 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:46:33,167 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:46:33,171 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:46:33,171 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:46:33,171 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:46:33,171 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:46:33,172 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:46:50,194 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:46:50,202 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:46:50,203 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:46:50,203 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:46:50,206 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:46:50,206 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:46:50,207 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:46:50,207 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:46:50,207 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:46:50,208 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:46:50,208 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:46:50,208 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:46:50,208 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:48:53,855 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:48:53,862 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:48:53,864 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:48:53,864 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:48:53,865 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:48:53,865 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:48:53,865 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:48:53,865 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:48:53,865 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:48:53,865 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:49:03,520 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:49:03,527 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:49:03,527 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:49:03,528 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:49:03,530 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:49:03,531 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:49:03,531 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:49:03,531 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:49:03,531 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:49:03,531 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:49:03,532 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:49:03,532 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:49:32,774 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:49:32,782 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:49:32,785 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:49:32,785 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:49:37,583 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:49:37,589 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:49:37,589 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:49:37,590 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:49:37,593 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:49:37,593 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:49:37,594 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:49:37,594 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:49:37,594 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:49:37,594 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:49:37,594 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:49:37,594 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:50:38,618 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:50:38,624 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:50:38,627 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:50:38,627 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:50:38,627 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:50:38,627 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:50:38,628 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:50:38,628 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:50:38,628 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:50:38,628 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:50:43,227 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:50:43,233 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:50:43,233 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:50:43,233 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:50:43,236 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:50:43,236 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:50:43,236 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:50:43,236 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:50:43,237 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:50:43,237 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:50:43,237 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:50:43,237 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:50:43,239 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:50:54,625 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56170,localport=31010]
+2025-05-13 19:51:26,736 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:51:26,742 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:51:26,745 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:51:26,745 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:51:26,745 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:51:26,746 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:51:26,746 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:51:26,746 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:51:26,746 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:51:26,746 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:51:31,393 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:51:31,399 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:51:31,400 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:51:31,400 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:51:31,403 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:51:31,403 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:51:31,405 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:51:31,405 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:51:31,406 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:51:31,406 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:51:31,406 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:51:31,406 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:51:31,407 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:52:00,773 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56191,localport=31010]
+2025-05-13 19:52:07,783 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:52:07,789 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:52:07,792 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:52:07,792 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:52:07,792 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:52:07,792 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:52:07,793 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:52:07,793 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:52:07,793 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:52:07,793 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:52:10,685 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:52:10,691 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:52:10,691 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:52:10,692 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:52:10,695 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:52:10,695 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:52:10,696 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:52:10,696 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:52:10,696 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:52:10,696 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:52:10,696 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:52:10,696 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:52:10,697 INFO u.c.c.ManejadorSockets [Thread-0] Iniciando el hilo
+2025-05-13 19:52:10,698 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:53:55,738 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:53:55,745 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:53:55,746 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:53:55,746 WARN u.c.c.Nodo [main] El puerto: 31011, esta ocupado
+2025-05-13 19:53:55,746 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31012
+2025-05-13 19:53:55,746 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:53:55,749 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:53:55,749 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:53:55,749 INFO u.c.c.ManejadorSockets [Thread-1] Iniciando el hilo
+2025-05-13 19:53:55,749 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:53:55,750 INFO u.c.c.ManejadorSockets [Thread-1] Esperando mensaje
+2025-05-13 19:53:55,750 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:53:55,750 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:53:55,750 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:53:55,750 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:53:55,750 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:53:55,750 INFO u.c.c.ManejadorSockets [Thread-1] Iniciando el hilo
+2025-05-13 19:53:55,752 INFO u.c.c.ManejadorSockets [Thread-1] Esperando mensaje
+2025-05-13 19:53:56,884 ERROR u.c.c.ManejadorSockets [Thread-1] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56259,localport=31011]
+2025-05-13 19:53:56,884 ERROR u.c.c.ManejadorSockets [Thread-1] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56258,localport=31010]
+2025-05-13 19:53:59,211 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56223,localport=31010]
+2025-05-13 19:54:04,989 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:54:04,995 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:54:04,998 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:54:04,998 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:54:04,999 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:54:04,999 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:54:04,999 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:54:04,999 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:54:04,999 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:54:05,000 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:54:25,286 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:54:25,293 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:54:25,296 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:54:25,296 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:54:29,423 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 19:54:29,431 WARN u.c.c.Nodo [main] El puerto: 31010, esta ocupado
+2025-05-13 19:54:29,431 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31011
+2025-05-13 19:54:29,432 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31010
+2025-05-13 19:54:29,434 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 19:54:29,435 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 19:54:29,435 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 19:54:29,435 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 19:54:29,435 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 19:54:29,435 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 19:54:29,435 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 19:54:29,435 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 19:54:29,436 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 19:54:29,436 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 19:54:29,436 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:54:29,437 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:54:29,440 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@6a74b63, datos=[B@50703c55}, del socket: Socket[addr=localhost/127.0.0.1,port=31010,localport=56279]
+2025-05-13 19:54:29,440 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@671717da, datos=[B@7d6b2816}, del socket: Socket[addr=/127.0.0.1,port=56279,localport=31010]
+2025-05-13 19:54:29,440 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:54:29,441 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 19:55:43,817 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56279,localport=31010]
+2025-05-13 20:16:48,201 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 20:16:48,209 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 20:16:48,212 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 20:16:48,213 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 20:16:48,213 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 20:16:48,213 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 20:16:48,213 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 20:16:48,213 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 20:16:48,213 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 20:16:48,213 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 20:16:54,979 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 20:16:54,980 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 20:16:54,982 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:16:54,984 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@616ced0b, datos=[B@390e506f}, del socket: Socket[addr=/127.0.0.1,port=56783,localport=31010]
+2025-05-13 20:16:54,985 INFO u.c.c.ManejadorSockets [Thread-0] socket: Socket[addr=/127.0.0.1,port=56783,localport=31010], se identifico como:CLIENTE
+2025-05-13 20:16:54,985 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:25:20,669 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 20:25:20,676 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 20:25:20,680 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 20:25:20,680 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 20:25:20,680 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 20:25:20,680 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 20:25:20,680 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 20:25:20,680 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 20:25:20,680 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 20:25:20,680 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 20:26:12,144 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 20:26:12,146 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 20:26:12,147 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:12,151 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@10f4ebf8, datos=[B@8454f08}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:12,152 INFO u.c.c.ManejadorSockets [Thread-0] socket: Socket[addr=/127.0.0.1,port=56969,localport=31010], se identifico como:CLIENTE
+2025-05-13 20:26:12,152 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:12,152 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@24f76765, datos=[B@442a8ed5}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:12,152 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:17,155 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@3e530834, datos=[B@4049c8a4}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:17,156 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:22,157 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@5f1a5387, datos=[B@4f562297}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:22,158 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:27,163 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@69e291e1, datos=[B@67606891}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:27,164 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:32,165 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@6a6b8991, datos=[B@14d74cd1}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:32,167 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:37,172 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@6947ba33, datos=[B@d07636a}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:37,173 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:42,174 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@3b96545a, datos=[B@1589263d}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:42,174 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:47,177 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@41cb809d, datos=[B@7761a7fd}, del socket: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:26:47,178 INFO u.c.c.ManejadorSockets [Thread-0] Esperando mensaje
+2025-05-13 20:26:48,777 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=56969,localport=31010]
+2025-05-13 20:31:10,302 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 20:31:10,307 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 20:31:10,309 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 20:31:10,309 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 20:31:10,310 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 20:31:10,310 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 20:31:10,310 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 20:31:10,310 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 20:31:10,310 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 20:31:10,310 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 20:31:44,029 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 20:31:44,030 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 20:31:44,035 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@403934e9, datos=[B@35c31b64}, del socket: Socket[addr=/127.0.0.1,port=57090,localport=31010]
+2025-05-13 20:31:44,036 INFO u.c.c.ManejadorSockets [Thread-0] socket: Socket[addr=/127.0.0.1,port=57090,localport=31010], se identifico como:CLIENTE
+2025-05-13 20:31:44,036 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@e37d4a3, datos=[B@26a9dda7}, del socket: Socket[addr=/127.0.0.1,port=57090,localport=31010]
+2025-05-13 20:31:44,036 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57090,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@1a22f814, datos=[B@863bc7d}
+2025-05-13 20:31:49,043 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@38c1e31e, datos=[B@506d4544}, del socket: Socket[addr=/127.0.0.1,port=57090,localport=31010]
+2025-05-13 20:31:49,043 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57090,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@1a22f814, datos=[B@863bc7d}
+2025-05-13 20:31:54,047 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@5d82e505, datos=[B@48172a9c}, del socket: Socket[addr=/127.0.0.1,port=57090,localport=31010]
+2025-05-13 20:31:54,048 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57090,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@1a22f814, datos=[B@863bc7d}
+2025-05-13 20:31:59,053 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@7ff9f993, datos=[B@4504c44d}, del socket: Socket[addr=/127.0.0.1,port=57090,localport=31010]
+2025-05-13 20:31:59,054 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57090,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@1a22f814, datos=[B@863bc7d}
+2025-05-13 20:31:59,899 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=57090,localport=31010]
+2025-05-13 20:32:37,154 INFO u.c.c.Nodo [main] Intentando obtener el puerto: 31010
+2025-05-13 20:32:37,160 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31011
+2025-05-13 20:32:37,162 WARN u.c.c.Nodo [main] El puerto: 31011, no esta disponible
+2025-05-13 20:32:37,162 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31012
+2025-05-13 20:32:37,162 WARN u.c.c.Nodo [main] El puerto: 31012, no esta disponible
+2025-05-13 20:32:37,162 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31013
+2025-05-13 20:32:37,162 WARN u.c.c.Nodo [main] El puerto: 31013, no esta disponible
+2025-05-13 20:32:37,162 INFO u.c.c.Nodo [main] Intentando la conexion con el puerto: 31014
+2025-05-13 20:32:37,163 WARN u.c.c.Nodo [main] El puerto: 31014, no esta disponible
+2025-05-13 20:32:37,163 INFO u.c.c.Nodo [main] Esperando conexiones...
+2025-05-13 20:32:41,090 INFO u.c.c.Nodo [main] Llego el cliente: /127.0.0.1
+2025-05-13 20:32:41,090 INFO u.c.c.ManejadorSockets [Thread-0] ------> Iniciando el hilo
+2025-05-13 20:32:41,094 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=0, evento=[B@79f3bab5, datos=[B@1537b915}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:41,094 INFO u.c.c.ManejadorSockets [Thread-0] socket: Socket[addr=/127.0.0.1,port=57126,localport=31010], se identifico como:CLIENTE
+2025-05-13 20:32:41,095 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@6c7d19fe, datos=[B@566ef0a7}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:41,095 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:41,095 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@61e5d681, datos=[B@402fe9d2}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:41,095 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:46,101 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@4db35d0c, datos=[B@3410eff7}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:46,102 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:46,103 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@7b8e762a, datos=[B@445061f0}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:46,104 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:51,107 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@135c1f4b, datos=[B@20003580}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:51,108 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:51,110 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@2837388c, datos=[B@6f2f939b}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:51,110 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:56,114 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@1cfa6f72, datos=[B@3df7e558}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:56,114 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:32:56,116 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@2c154932, datos=[B@3f35b460}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:32:56,116 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:01,117 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@70fbdd0b, datos=[B@72a43b69}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:01,119 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:01,123 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@747eb0d6, datos=[B@66fa8c8d}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:01,124 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:06,123 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@48c706dc, datos=[B@1beb13de}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:06,123 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:06,126 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@1a12f875, datos=[B@28be915e}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:06,126 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:11,125 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@58bf9373, datos=[B@1b090e59}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:11,125 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:11,126 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@16d59c1d, datos=[B@4abddbf8}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:11,126 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:16,131 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=1, evento=[B@6e3dedd7, datos=[B@3d955d8f}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:16,132 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:16,134 INFO u.c.c.ManejadorSockets [Thread-0] Se recibio el mensaje: Mensaje{numeroServicio=2, evento=[B@79a0b54, datos=[B@23dc6244}, del socket: Socket[addr=/127.0.0.1,port=57126,localport=31010]
+2025-05-13 20:33:16,134 ERROR u.c.c.ManejadorSockets [Thread-0] se reenvia el mensaje al cliente: Socket[addr=/127.0.0.1,port=57126,localport=31010], mensaje: Mensaje{numeroServicio=0, evento=[B@7dfe0de6, datos=[B@6553913c}
+2025-05-13 20:33:20,406 ERROR u.c.c.ManejadorSockets [Thread-0] Se perdio la conexion con: Socket[addr=/127.0.0.1,port=57126,localport=31010]
