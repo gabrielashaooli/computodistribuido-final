@@ -1,24 +1,38 @@
 package up.clasecd.calculadora;
 
-/**
- * Mensaje del protocolo
- *
- * @author sebastian
- */
+import java.util.Arrays;
+
 public class Mensaje {
 
-    private Short numeroServicio;
-    private byte[] evento;
-    private byte[] datos;
+    private short destinatario;       // 0=nodo, 1=servidor, 2=cliente
+    private byte[] huella = new byte[8]; // ID único generado por cada célula
+    private short numeroServicio;     // Tipo de servicio (suma, resta, acuse, etc.)
+    private byte[] evento;            // ID del evento (folio, UUID, timestamp, etc.)
+    private byte[] datos;             // Información del servicio (operaciones, resultados...)
 
-    public Mensaje() {
+    public Mensaje() {}
+
+    public short getDestinatario() {
+        return destinatario;
     }
 
-    public Short getNumeroServicio() {
+    public void setDestinatario(short destinatario) {
+        this.destinatario = destinatario;
+    }
+
+    public byte[] getHuella() {
+        return huella;
+    }
+
+    public void setHuella(byte[] huella) {
+        this.huella = huella;
+    }
+
+    public short getNumeroServicio() {
         return numeroServicio;
     }
 
-    public void setNumeroServicio(Short numeroServicio) {
+    public void setNumeroServicio(short numeroServicio) {
         this.numeroServicio = numeroServicio;
     }
 
@@ -40,7 +54,12 @@ public class Mensaje {
 
     @Override
     public String toString() {
-        return "Mensaje{" + "numeroServicio=" + numeroServicio + ", evento=" + evento + ", datos=" + datos + '}';
+        return "Mensaje{" +
+                "destinatario=" + destinatario +
+                ", huella=" + Arrays.toString(huella) +
+                ", numeroServicio=" + numeroServicio +
+                ", evento=" + new String(evento) +
+                ", datos=" + new String(datos) +
+                '}';
     }
-
 }
