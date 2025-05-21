@@ -9,7 +9,8 @@ public class Mensaje {
     private short numeroServicio;     // Tipo de servicio (suma, resta, acuse, etc.)
     private byte[] evento;            // ID del evento (folio, UUID, timestamp, etc.)
     private byte[] datos;             // Información del servicio (operaciones, resultados...)
-
+    private String folio;             // Folio único del mensaje
+    
     public Mensaje() {}
 
     public short getDestinatario() {
@@ -51,6 +52,14 @@ public class Mensaje {
     public void setDatos(byte[] datos) {
         this.datos = datos;
     }
+    
+    public String getFolio() {
+        return folio;
+    }
+
+    public void setFolio(String folio) {
+        this.folio = folio;
+    }
 
     @Override
     public String toString() {
@@ -60,6 +69,7 @@ public class Mensaje {
                 ", numeroServicio=" + numeroServicio +
                 ", evento=" + new String(evento) +
                 ", datos=" + new String(datos) +
+                ", folio='" + folio + '\'' +
                 '}';
     }
 }

@@ -6,10 +6,6 @@ import java.net.Socket;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- *
- * @author sebastian
- */
 public class Nodo {
 
     private static final Logger LOGGER = LogManager.getLogger(Nodo.class);

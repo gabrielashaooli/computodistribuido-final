@@ -5,6 +5,8 @@ import java.net.Socket;
 import java.util.Random;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import java.util.UUID;
+
 
 public class Cliente {
 
@@ -12,7 +14,7 @@ public class Cliente {
     private static Socket socket;
     private static final Random RANDOM = new Random(System.currentTimeMillis());
 
-    // ✅ Huella única generada al iniciar el cliente
+    // Huella única generada al iniciar el cliente
     private static final byte[] HUELLA = generarHuella();
 
     private static byte[] generarHuella() {
@@ -54,6 +56,8 @@ public class Cliente {
                     mensaje.setNumeroServicio(Constantes.SERVICIO_SOLICITUD);
                     mensaje.setEvento((System.nanoTime() + "").getBytes());
                     mensaje.setDatos((RANDOM.nextInt(100) + ":" + RANDOM.nextInt(100)).getBytes());
+                    mensaje.setFolio(UUID.randomUUID().toString().substring(0, 8));
+
                     DecoderEncoder.escribir(socket, mensaje);
                     LOGGER.info("Se solicita: " + mensaje);
                 } catch (IOException iOException) {
