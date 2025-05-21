@@ -6,49 +6,56 @@ import java.util.Random;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- *
- * @author sebastian
- */
 public class Cliente {
 
     private static final Logger LOGGER = LogManager.getLogger(Cliente.class);
     private static Socket socket;
     private static final Random RANDOM = new Random(System.currentTimeMillis());
 
+    // ✅ Huella única generada al iniciar el cliente
+    private static final byte[] HUELLA = generarHuella();
+
+    private static byte[] generarHuella() {
+        byte[] huella = new byte[8];
+        RANDOM.nextBytes(huella);
+        return huella;
+    }
+
     private static void establecerConexion() throws Exception {
         for (int i = Constantes.PUERTO_INICIAL; i <= Constantes.PUERTO_FINAL; i++) {
             try {
                 socket = new Socket("localhost", i);
-                LOGGER.info("Se logro la conexion con:  + i");
-                // enviar el mensaje de identificacion que soy cliente
-                // enviar un mensaje de identificacion
+                LOGGER.info("Se logró la conexión con: " + i);
+                // enviar mensaje de identificación con huella
                 Mensaje m = new Mensaje();
-                m.setDatos("CLIENTE".getBytes());
-                m.setEvento("".getBytes());
+                m.setDestinatario((short) 0); // Nodo
+                m.setHuella(HUELLA);
                 m.setNumeroServicio(Constantes.SERVICIO_IDENTIFICACION);
+                m.setEvento("".getBytes());
+                m.setDatos("CLIENTE".getBytes());
                 DecoderEncoder.escribir(socket, m);
                 return;
             } catch (IOException iOException) {
-                LOGGER.warn("No se logro la conexion con: " + i, iOException);
+                LOGGER.warn("No se logró la conexión con: " + i, iOException);
             }
         }
-        throw new Exception("No existe ningun nodo del CD");
+        throw new Exception("No existe ningún nodo del CD");
     }
 
     public static void main(String[] args) throws Exception {
-        // establecer conexion con un nodo del CD
         establecerConexion();
 
         new Thread(() -> {
             do {
                 try {
                     Mensaje mensaje = new Mensaje();
-                    mensaje.setDatos((RANDOM.nextInt(100) + ":" + RANDOM.nextInt(100)).getBytes());
-                    mensaje.setEvento((System.nanoTime() + "").getBytes());
+                    mensaje.setDestinatario((short) 0); // Nodo
+                    mensaje.setHuella(HUELLA);
                     mensaje.setNumeroServicio(Constantes.SERVICIO_SOLICITUD);
+                    mensaje.setEvento((System.nanoTime() + "").getBytes());
+                    mensaje.setDatos((RANDOM.nextInt(100) + ":" + RANDOM.nextInt(100)).getBytes());
                     DecoderEncoder.escribir(socket, mensaje);
-                    LOGGER.info("se solicita: " + mensaje);
+                    LOGGER.info("Se solicita: " + mensaje);
                 } catch (IOException iOException) {
                     LOGGER.error("Al enviar un mensaje de prueba", iOException);
                 }
@@ -60,15 +67,12 @@ public class Cliente {
             } while (true);
         }).start();
 
-        // crear un hilo de atencion que recibe y procesa los mensajes
         new Thread(() -> {
             try {
                 while (true) {
-                    // leemos el mensaje
                     Mensaje mensaje = DecoderEncoder.leer(socket);
-                    LOGGER.info("se recibio el mensaje: " + mensaje);
+                    LOGGER.info("Se recibió el mensaje: " + mensaje);
 
-                    // se procesa el mensaje
                     switch (mensaje.getNumeroServicio()) {
                         case (short) 1:
                             String datos = new String(mensaje.getDatos());
@@ -76,28 +80,25 @@ public class Cliente {
                             Integer a = Integer.valueOf(split[0]);
                             Integer b = Integer.valueOf(split[1]);
                             Integer resultado = a + b;
-                            // enviar resultado
                             Mensaje resultadoMensaje = new Mensaje();
-                            resultadoMensaje.setDatos(resultado.toString().getBytes());
-                            resultadoMensaje.setEvento(mensaje.getEvento());
+                            resultadoMensaje.setDestinatario((short) 0);
+                            resultadoMensaje.setHuella(HUELLA);
                             resultadoMensaje.setNumeroServicio(Constantes.SERVICIO_RESULTADO);
+                            resultadoMensaje.setEvento(mensaje.getEvento());
+                            resultadoMensaje.setDatos(resultado.toString().getBytes());
                             DecoderEncoder.escribir(socket, resultadoMensaje);
-                            LOGGER.info("se envia respuesta: " + resultadoMensaje);
+                            LOGGER.info("Se envía respuesta: " + resultadoMensaje);
                             break;
                         case (short) 2:
-                            /// imprime el resultado
                             LOGGER.info("Resultado: " + new String(mensaje.getDatos()));
                             break;
                         default:
                             LOGGER.warn("Mensaje fuera del protocolo");
                     }
-
                 }
             } catch (Exception e) {
                 LOGGER.error("Cliente desconectado");
             }
-
         }).start();
     }
-
 }
