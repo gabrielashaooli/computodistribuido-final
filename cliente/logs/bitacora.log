@@ -6605,3 +6605,109 @@ java.net.SocketException: Connection reset by peer
 	at up.clasecd.calculadora.DecoderEncoder.escribir(DecoderEncoder.java:69) ~[libreria-compartida-1.0.0.jar:?]
 	at up.clasecd.calculadora.Cliente.lambda$main$0(Cliente.java:61) ~[classes/:?]
 	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-05-20 19:36:40,972 INFO u.c.c.Cliente [main] Se logró la conexión con: 31010
+2025-05-20 19:36:41,039 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29475759826600, datos=75:50, folio='892e0562'}
+2025-05-20 19:36:41,039 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29475759826600, datos=75:50, folio='892e0562'}
+2025-05-20 19:36:41,041 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29475759826600, datos=125, folio='null'}
+2025-05-20 19:36:41,042 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29475759826600, datos=125, folio=''}
+2025-05-20 19:36:41,042 INFO u.c.c.Cliente [Thread-1] Resultado: 125
+2025-05-20 19:36:46,049 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29480829171600, datos=82:78, folio='f6d27b8f'}
+2025-05-20 19:36:46,052 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29480829171600, datos=82:78, folio='f6d27b8f'}
+2025-05-20 19:36:46,053 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29480829171600, datos=160, folio='null'}
+2025-05-20 19:36:46,054 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29480829171600, datos=160, folio=''}
+2025-05-20 19:36:46,054 INFO u.c.c.Cliente [Thread-1] Resultado: 160
+2025-05-20 19:36:51,063 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29485845741600, datos=47:14, folio='ffb84899'}
+2025-05-20 19:36:51,067 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29485845741600, datos=47:14, folio='ffb84899'}
+2025-05-20 19:36:51,068 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29485845741600, datos=61, folio='null'}
+2025-05-20 19:36:51,070 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29485845741600, datos=61, folio=''}
+2025-05-20 19:36:51,070 INFO u.c.c.Cliente [Thread-1] Resultado: 61
+2025-05-20 19:36:56,071 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29490852625700, datos=93:36, folio='2d3093da'}
+2025-05-20 19:36:56,071 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29490852625700, datos=93:36, folio='2d3093da'}
+2025-05-20 19:36:56,072 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29490852625700, datos=129, folio='null'}
+2025-05-20 19:36:56,072 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29490852625700, datos=129, folio=''}
+2025-05-20 19:36:56,073 INFO u.c.c.Cliente [Thread-1] Resultado: 129
+2025-05-20 19:37:01,079 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29495859637000, datos=92:68, folio='e087657c'}
+2025-05-20 19:37:01,079 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29495859637000, datos=92:68, folio='e087657c'}
+2025-05-20 19:37:01,080 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29495859637000, datos=160, folio='null'}
+2025-05-20 19:37:01,081 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29495859637000, datos=160, folio=''}
+2025-05-20 19:37:01,081 INFO u.c.c.Cliente [Thread-1] Resultado: 160
+2025-05-20 19:37:06,081 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29500862672600, datos=0:50, folio='a64dbaff'}
+2025-05-20 19:37:06,082 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29500862672600, datos=0:50, folio='a64dbaff'}
+2025-05-20 19:37:06,082 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29500862672600, datos=50, folio='null'}
+2025-05-20 19:37:06,083 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29500862672600, datos=50, folio=''}
+2025-05-20 19:37:06,083 INFO u.c.c.Cliente [Thread-1] Resultado: 50
+2025-05-20 19:37:11,093 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29505873599600, datos=37:55, folio='e1d07732'}
+2025-05-20 19:37:11,094 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29505873599600, datos=37:55, folio='e1d07732'}
+2025-05-20 19:37:11,096 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29505873599600, datos=92, folio='null'}
+2025-05-20 19:37:11,098 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29505873599600, datos=92, folio=''}
+2025-05-20 19:37:11,098 INFO u.c.c.Cliente [Thread-1] Resultado: 92
+2025-05-20 19:37:16,097 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29510878326800, datos=2:18, folio='3982baf3'}
+2025-05-20 19:37:16,098 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29510878326800, datos=2:18, folio='3982baf3'}
+2025-05-20 19:37:16,099 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29510878326800, datos=20, folio='null'}
+2025-05-20 19:37:16,099 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29510878326800, datos=20, folio=''}
+2025-05-20 19:37:16,099 INFO u.c.c.Cliente [Thread-1] Resultado: 20
+2025-05-20 19:37:21,114 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29515894248200, datos=7:8, folio='d23eea49'}
+2025-05-20 19:37:21,114 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29515894248200, datos=7:8, folio='d23eea49'}
+2025-05-20 19:37:21,116 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29515894248200, datos=15, folio='null'}
+2025-05-20 19:37:21,117 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29515894248200, datos=15, folio=''}
+2025-05-20 19:37:21,117 INFO u.c.c.Cliente [Thread-1] Resultado: 15
+2025-05-20 19:37:26,122 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29520904215700, datos=44:55, folio='90e82531'}
+2025-05-20 19:37:26,123 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29520904215700, datos=44:55, folio='90e82531'}
+2025-05-20 19:37:26,124 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29520904215700, datos=99, folio='null'}
+2025-05-20 19:37:26,125 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29520904215700, datos=99, folio=''}
+2025-05-20 19:37:26,125 INFO u.c.c.Cliente [Thread-1] Resultado: 99
+2025-05-20 19:37:31,129 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29525911300400, datos=99:28, folio='9e8f703f'}
+2025-05-20 19:37:31,131 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29525911300400, datos=99:28, folio='9e8f703f'}
+2025-05-20 19:37:31,132 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29525911300400, datos=127, folio='null'}
+2025-05-20 19:37:31,133 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29525911300400, datos=127, folio=''}
+2025-05-20 19:37:31,133 INFO u.c.c.Cliente [Thread-1] Resultado: 127
+2025-05-20 19:37:36,144 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29530924832600, datos=54:83, folio='aab2e4a6'}
+2025-05-20 19:37:36,146 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29530924832600, datos=54:83, folio='aab2e4a6'}
+2025-05-20 19:37:36,148 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29530924832600, datos=137, folio='null'}
+2025-05-20 19:37:36,149 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29530924832600, datos=137, folio=''}
+2025-05-20 19:37:36,149 INFO u.c.c.Cliente [Thread-1] Resultado: 137
+2025-05-20 19:37:41,157 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29535940131200, datos=39:26, folio='7566a052'}
+2025-05-20 19:37:41,161 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29535940131200, datos=39:26, folio='7566a052'}
+2025-05-20 19:37:41,162 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29535940131200, datos=65, folio='null'}
+2025-05-20 19:37:41,163 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29535940131200, datos=65, folio=''}
+2025-05-20 19:37:41,163 INFO u.c.c.Cliente [Thread-1] Resultado: 65
+2025-05-20 19:37:46,165 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29540943989900, datos=75:19, folio='28c61976'}
+2025-05-20 19:37:46,163 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29540943989900, datos=75:19, folio='28c61976'}
+2025-05-20 19:37:46,165 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29540943989900, datos=94, folio='null'}
+2025-05-20 19:37:46,169 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29540943989900, datos=94, folio=''}
+2025-05-20 19:37:46,169 INFO u.c.c.Cliente [Thread-1] Resultado: 94
+2025-05-20 19:37:51,171 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29545952448700, datos=28:19, folio='4ffcae39'}
+2025-05-20 19:37:51,172 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29545952448700, datos=28:19, folio='4ffcae39'}
+2025-05-20 19:37:51,173 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29545952448700, datos=47, folio='null'}
+2025-05-20 19:37:51,174 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29545952448700, datos=47, folio=''}
+2025-05-20 19:37:51,174 INFO u.c.c.Cliente [Thread-1] Resultado: 47
+2025-05-20 19:37:56,173 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29550954626900, datos=53:38, folio='afa5648d'}
+2025-05-20 19:37:56,174 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29550954626900, datos=53:38, folio='afa5648d'}
+2025-05-20 19:37:56,175 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29550954626900, datos=91, folio='null'}
+2025-05-20 19:37:56,176 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29550954626900, datos=91, folio=''}
+2025-05-20 19:37:56,176 INFO u.c.c.Cliente [Thread-1] Resultado: 91
+2025-05-20 19:38:01,182 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29555961945900, datos=97:54, folio='c8cf074f'}
+2025-05-20 19:38:01,184 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29555961945900, datos=97:54, folio='c8cf074f'}
+2025-05-20 19:38:01,184 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29555961945900, datos=151, folio='null'}
+2025-05-20 19:38:01,186 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29555961945900, datos=151, folio=''}
+2025-05-20 19:38:01,186 INFO u.c.c.Cliente [Thread-1] Resultado: 151
+2025-05-20 19:38:06,198 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29560976345700, datos=65:39, folio='c1ca46be'}
+2025-05-20 19:38:06,199 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29560976345700, datos=65:39, folio='c1ca46be'}
+2025-05-20 19:38:06,202 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29560976345700, datos=104, folio='null'}
+2025-05-20 19:38:06,202 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29560976345700, datos=104, folio=''}
+2025-05-20 19:38:06,202 INFO u.c.c.Cliente [Thread-1] Resultado: 104
+2025-05-20 19:38:11,202 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29565984730700, datos=57:64, folio='4e959999'}
+2025-05-20 19:38:11,205 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29565984730700, datos=57:64, folio='4e959999'}
+2025-05-20 19:38:11,207 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29565984730700, datos=121, folio='null'}
+2025-05-20 19:38:11,207 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29565984730700, datos=121, folio=''}
+2025-05-20 19:38:11,207 INFO u.c.c.Cliente [Thread-1] Resultado: 121
+2025-05-20 19:38:16,215 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29570998433700, datos=79:22, folio='07dd413d'}
+2025-05-20 19:38:16,220 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29570998433700, datos=79:22, folio='07dd413d'}
+2025-05-20 19:38:16,220 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29570998433700, datos=101, folio='null'}
+2025-05-20 19:38:16,222 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29570998433700, datos=101, folio=''}
+2025-05-20 19:38:16,222 INFO u.c.c.Cliente [Thread-1] Resultado: 101
+2025-05-20 19:38:21,222 INFO u.c.c.Cliente [Thread-0] Se solicita: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29576003106200, datos=11:69, folio='1332f1fd'}
+2025-05-20 19:38:21,224 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=1, evento=29576003106200, datos=11:69, folio='1332f1fd'}
+2025-05-20 19:38:21,224 INFO u.c.c.Cliente [Thread-1] Se envía respuesta: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29576003106200, datos=80, folio='null'}
+2025-05-20 19:38:21,224 INFO u.c.c.Cliente [Thread-1] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-119, -70, -61, -105, -29, -110, 42, 107], numeroServicio=2, evento=29576003106200, datos=80, folio=''}
+2025-05-20 19:38:21,224 INFO u.c.c.Cliente [Thread-1] Resultado: 80
