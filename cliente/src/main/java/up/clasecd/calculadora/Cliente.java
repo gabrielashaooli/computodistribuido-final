@@ -90,6 +90,7 @@ public class Cliente {
                             resultadoMensaje.setNumeroServicio(Constantes.SERVICIO_RESULTADO);
                             resultadoMensaje.setEvento(mensaje.getEvento());
                             resultadoMensaje.setDatos(resultado.toString().getBytes());
+                            resultadoMensaje.setFolio(mensaje.getFolio()); 
                             DecoderEncoder.escribir(socket, resultadoMensaje);
                             LOGGER.info("Se envía respuesta: " + resultadoMensaje);
                             break;
