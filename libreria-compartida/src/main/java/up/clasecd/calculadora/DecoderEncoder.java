@@ -29,18 +29,21 @@ public class DecoderEncoder {
         byte[] datos = new byte[longitudDatos];
         dis.readFully(datos);
 
+        short longitudFolio = dis.readShort();
+        byte[] folioBytes = new byte[longitudFolio];
+        dis.readFully(folioBytes);
+        String folio = new String(folioBytes);
+        
         Mensaje m = new Mensaje();
         m.setDestinatario(destinatario);
         m.setHuella(huella);
         m.setNumeroServicio(numeroServicio);
         m.setEvento(evento);
         m.setDatos(datos);
+        m.setFolio(folio);
         return m;
     }
 
-    /**
-     * Escribe el mensaje al output stream con el nuevo protocolo.
-     */
     public static void escribir(DataOutputStream dos, Mensaje m) throws IOException {
         dos.writeShort(m.getDestinatario());
 
@@ -59,6 +62,12 @@ public class DecoderEncoder {
         byte[] datos = m.getDatos();
         dos.writeInt(datos.length);
         dos.write(datos);
+        
+        String folio = m.getFolio();
+        if (folio == null) folio = "";
+        byte[] folioBytes = folio.getBytes();
+        dos.writeShort(folioBytes.length);
+        dos.write(folioBytes);
     }
 
     public static Mensaje leer(Socket socket) throws IOException {
