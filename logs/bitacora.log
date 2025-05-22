@@ -1,0 +1,20 @@
+2025-05-21 20:07:02,320 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Intentando obtener el puerto: 31010
+2025-05-21 20:07:02,323 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Intentando la conexion con el puerto: 31011
+2025-05-21 20:07:02,325 WARN u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] El puerto: 31011, no esta disponible
+2025-05-21 20:07:02,325 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Intentando la conexion con el puerto: 31012
+2025-05-21 20:07:02,325 WARN u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] El puerto: 31012, no esta disponible
+2025-05-21 20:07:02,326 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Intentando la conexion con el puerto: 31013
+2025-05-21 20:07:02,326 WARN u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] El puerto: 31013, no esta disponible
+2025-05-21 20:07:02,326 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Intentando la conexion con el puerto: 31014
+2025-05-21 20:07:02,326 WARN u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] El puerto: 31014, no esta disponible
+2025-05-21 20:07:02,326 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Esperando conexiones...
+2025-05-21 20:07:14,327 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Llego el cliente: /127.0.0.1
+2025-05-21 20:07:14,329 INFO u.c.c.ManejadorSockets [Thread-2] ------> Iniciando el hilo
+2025-05-21 20:07:14,332 INFO u.c.c.CelulaServidora [up.clasecd.calculadora.CelulaServidora.main()] Conectado al nodo en puerto: 31010
+2025-05-21 20:07:14,342 INFO u.c.c.ManejadorSockets [Thread-2] Se recibió el mensaje: Mensaje{destinatario=0, huella=[-113, -83, -71, 76, -51, 54, -22, -43], numeroServicio=0, evento=, datos=S, folio=''}, del socket: Socket[addr=/127.0.0.1,port=62948,localport=31010]
+2025-05-21 20:07:14,343 INFO u.c.c.ManejadorSockets [Thread-2] Socket identificado como: S
+2025-05-21 20:07:32,659 INFO u.c.c.Nodo [up.clasecd.calculadora.Nodo.main()] Llego el cliente: /127.0.0.1
+2025-05-21 20:07:32,659 INFO u.c.c.ManejadorSockets [Thread-3] ------> Iniciando el hilo
+2025-05-21 20:07:32,661 INFO u.c.c.ClienteSolicitante [up.clasecd.calculadora.ClienteSolicitante.main()] Conectado con nodo en puerto: 31010
+2025-05-21 20:07:32,665 INFO u.c.c.ManejadorSockets [Thread-3] Se recibió el mensaje: Mensaje{destinatario=0, huella=[77, 63, -5, 66, 86, 106, -5, 32], numeroServicio=0, evento=, datos=C, folio=''}, del socket: Socket[addr=/127.0.0.1,port=62949,localport=31010]
+2025-05-21 20:07:32,665 INFO u.c.c.ManejadorSockets [Thread-3] Socket identificado como: C
