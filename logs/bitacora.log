@@ -18,3 +18,19 @@
 2025-05-21 20:07:32,661 INFO u.c.c.ClienteSolicitante [up.clasecd.calculadora.ClienteSolicitante.main()] Conectado con nodo en puerto: 31010
 2025-05-21 20:07:32,665 INFO u.c.c.ManejadorSockets [Thread-3] Se recibió el mensaje: Mensaje{destinatario=0, huella=[77, 63, -5, 66, 86, 106, -5, 32], numeroServicio=0, evento=, datos=C, folio=''}, del socket: Socket[addr=/127.0.0.1,port=62949,localport=31010]
 2025-05-21 20:07:32,665 INFO u.c.c.ManejadorSockets [Thread-3] Socket identificado como: C
+2025-05-21 20:35:49,485 ERROR u.c.c.ClienteSolicitante [Thread-3] Error al recibir mensaje
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210) ~[?:?]
+	at java.base/java.io.DataInputStream.readShort(DataInputStream.java:319) ~[?:?]
+	at up.clasecd.calculadora.DecoderEncoder.leer(DecoderEncoder.java:17) ~[libreria-compartida-1.0.0.jar:?]
+	at up.clasecd.calculadora.DecoderEncoder.leer(DecoderEncoder.java:74) ~[libreria-compartida-1.0.0.jar:?]
+	at up.clasecd.calculadora.ClienteSolicitante.lambda$main$1(ClienteSolicitante.java:100) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+2025-05-21 20:35:49,484 ERROR u.c.c.CelulaServidora [Thread-2] Error en hilo receptor
+java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210) ~[?:?]
+	at java.base/java.io.DataInputStream.readShort(DataInputStream.java:319) ~[?:?]
+	at up.clasecd.calculadora.DecoderEncoder.leer(DecoderEncoder.java:17) ~[libreria-compartida-1.0.0.jar:?]
+	at up.clasecd.calculadora.DecoderEncoder.leer(DecoderEncoder.java:74) ~[libreria-compartida-1.0.0.jar:?]
+	at up.clasecd.calculadora.CelulaServidora.lambda$main$0(CelulaServidora.java:65) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
