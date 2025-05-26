@@ -4,16 +4,6 @@
  */
 package up.clasecd.calculadora;
 
-/**
- *
- * @author minemurakenji
- * Identificación con tipo "S"
- * Escucha de solicitudes 1 - 4 
- * Envía ACK al recibir una solicitud (99) 
- * Cola de entrada
- * Ejecucion de operaciones + envió de resultados con tipo 5 
- */
-
 import java.io.IOException;
 import java.net.Socket;
 import java.nio.ByteBuffer;
@@ -58,7 +48,7 @@ public class CelulaServidora {
     public static void main(String[] args) throws Exception {
         establecerConexion();
 
-        // 🎧 Hilo receptor
+        // Hilo receptor
         new Thread(() -> {
             try {
                 while (true) {
@@ -76,9 +66,13 @@ public class CelulaServidora {
                         DecoderEncoder.escribir(socket, ack);
                         LOGGER.info("ACK enviado para: " + recibido.getFolio());
 
-                        // Encolar solicitud
-                        colaEntrada.put(recibido);
-                        LOGGER.info("Solicitud encolada: " + recibido);
+                        // Validar tamaño de datos
+                        if (recibido.getDatos().length == 8) {
+                            colaEntrada.put(recibido);
+                            LOGGER.info("Solicitud encolada: " + recibido);
+                        } else {
+                            LOGGER.warn("Mensaje ignorado por datos inválidos: " + recibido);
+                        }
                     }
                 }
             } catch (Exception e) {
@@ -110,7 +104,7 @@ public class CelulaServidora {
                     Mensaje respuesta = new Mensaje();
                     respuesta.setDestinatario((short) 0);
                     respuesta.setHuella(HUELLA);
-                    respuesta.setNumeroServicio((short) 5); // imprimir resultado
+                    respuesta.setNumeroServicio((short) 5); // respuesta final
                     respuesta.setEvento(m.getEvento());
                     respuesta.setFolio(m.getFolio());
                     respuesta.setDatos(ByteBuffer.allocate(4).putInt(resultado).array());
@@ -125,4 +119,3 @@ public class CelulaServidora {
         }).start();
     }
 }
-

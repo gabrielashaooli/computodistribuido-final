@@ -4,17 +4,6 @@
  */
 package up.clasecd.calculadora;
 
-/**
- *
- * @author minemurakenji
- * 
- * Con que cuenta este codigo?? 
- * colasPorServicio - una por cada tipo de operación
- * Un hilo de envío que recorre todas las colas y transmite mensjes 
- * Un hilo de escucha que recibe ACKs(99) y resultados (5)
- * Hilo de generación de solicitudes que espera que lleugen suficientes ACKs antes de enviar. 
- */
-
 
 import java.io.IOException;
 import java.net.Socket;
@@ -105,7 +94,7 @@ public class ClienteSolicitante {
                         acusesPorFolio.merge(folio, 1, Integer::sum);
                         LOGGER.info("ACK recibido para folio: " + folio + " → total: " + acusesPorFolio.get(folio));
                     } else if (tipo == 5) {
-                        LOGGER.info("Resultado recibido: " + new String(recibido.getDatos()));
+                        LOGGER.info("Resultado recibido → Folio: " + recibido.getFolio() + ", Resultado: " + ByteBuffer.wrap(recibido.getDatos()).getInt());
                     }
                 } catch (Exception e) {
                     LOGGER.error("Error al recibir mensaje", e);

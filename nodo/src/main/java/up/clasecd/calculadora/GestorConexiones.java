@@ -4,10 +4,6 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author sebastian
- */
 public class GestorConexiones {
 
     private final List<Socket> nodos = new ArrayList<>();

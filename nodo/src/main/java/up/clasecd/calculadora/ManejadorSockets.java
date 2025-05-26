@@ -1,6 +1,8 @@
 package up.clasecd.calculadora;
 
 import java.net.Socket;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -8,6 +10,7 @@ public class ManejadorSockets implements Runnable {
 
     private static final Logger LOGGER = LogManager.getLogger(ManejadorSockets.class);
     private final Socket socket;
+    private static final Set<String> foliosProcesados = ConcurrentHashMap.newKeySet();
 
     public ManejadorSockets(Socket socket) {
         this.socket = socket;
@@ -16,15 +19,14 @@ public class ManejadorSockets implements Runnable {
     @Override
     public void run() {
         try {
-            LOGGER.info("------> Iniciando el hilo");
+            LOGGER.info("------> Iniciando el hilo con: " + socket);
 
-            // Esperar mensajes
             while (true) {
                 Mensaje mensaje = DecoderEncoder.leer(socket);
                 LOGGER.info("Se recibió el mensaje: " + mensaje + ", del socket: " + socket);
 
                 switch (mensaje.getNumeroServicio()) {
-                    case (short) 0: // IDENTIFICACIÓN
+                    case 0: {
                         String indicador = new String(mensaje.getDatos());
                         if (indicador.equals("NODO")) {
                             GestorConexiones.getInstance().addNodo(socket);
@@ -33,20 +35,32 @@ public class ManejadorSockets implements Runnable {
                         }
                         LOGGER.info("Socket identificado como: " + indicador);
                         break;
+                    }
 
-                    case (short) 1, (short) 2: // SOLICITUD o RESULTADO
-                        // Si este socket NO es nodo, reenvía a nodos
-                        if (!GestorConexiones.getInstance().esNodo(socket)) {
-                            for (Socket nodoSocket : GestorConexiones.getInstance().getNodos()) {
+                    case 1, 2, 5, 99: {
+                        // Validación: ya lo procesamos antes
+                        String folio = mensaje.getFolio();
+                        if (!foliosProcesados.add(folio)) {
+                            LOGGER.debug("Folio ya procesado, ignorando: " + folio);
+                            break;
+                        }
+
+                        // Reenvío a nodos (excepto al origen)
+                        for (Socket nodoSocket : GestorConexiones.getInstance().getNodos()) {
+                            if (!nodoSocket.equals(socket)) {
                                 DecoderEncoder.escribir(nodoSocket, mensaje);
                             }
                         }
 
-                        // Si este socket NO es cliente, reenvía a clientes
+                        // Reenvío a clientes (excepto al origen)
                         for (Socket clienteSocket : GestorConexiones.getInstance().getClientes()) {
-                            DecoderEncoder.escribir(clienteSocket, mensaje);
+                            if (!clienteSocket.equals(socket)) {
+                                DecoderEncoder.escribir(clienteSocket, mensaje);
+                            }
                         }
+
                         break;
+                    }
 
                     default:
                         LOGGER.warn("Mensaje fuera del protocolo: " + mensaje);

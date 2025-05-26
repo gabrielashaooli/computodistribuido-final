@@ -11,10 +11,6 @@ public class Nodo {
     private static final Logger LOGGER = LogManager.getLogger(Nodo.class);
     private static ServerSocket serverSocket;
 
-    /**
-     *
-     * @throws Exception
-     */
     private static void getServerSocket() throws Exception {
         // recorre el rango de puertos y trata de obtener el server socket
         for (int i = Constantes.PUERTO_INICIAL; i <= Constantes.PUERTO_FINAL; i++) {
