@@ -29,18 +29,18 @@ public class DecoderEncoder {
         byte[] datos = new byte[longitudDatos];
         dis.readFully(datos);
 
-        short longitudFolio = dis.readShort();
-        byte[] folioBytes = new byte[longitudFolio];
-        dis.readFully(folioBytes);
-        String folio = new String(folioBytes);
+        //short longitudFolio = dis.readShort();
+        //byte[] folioBytes = new byte[longitudFolio];
+        //dis.readFully(folioBytes);
+        //String folio = new String(folioBytes);
         
         Mensaje m = new Mensaje();
         m.setDestinatario(destinatario);
         m.setHuella(huella);
         m.setNumeroServicio(numeroServicio);
-        m.setEvento(evento);
+        m.setEvento(evento); // evento es folio en bytes
         m.setDatos(datos);
-        m.setFolio(folio);
+        // m.setFolio(folio);
         return m;
     }
 
@@ -55,19 +55,22 @@ public class DecoderEncoder {
 
         dos.writeShort(m.getNumeroServicio());
 
-        byte[] evento = m.getEvento();
+        byte[] evento = m.getEvento(); // evento contiene folio como bytes
+        if (evento == null) evento = new byte[0];
         dos.writeShort(evento.length);
         dos.write(evento);
 
         byte[] datos = m.getDatos();
+        if (datos == null) datos = new byte[0];
         dos.writeInt(datos.length);
         dos.write(datos);
         
-        String folio = m.getFolio();
-        if (folio == null) folio = "";
-        byte[] folioBytes = folio.getBytes();
-        dos.writeShort(folioBytes.length);
-        dos.write(folioBytes);
+        dos.flush();
+        //String folio = m.getFolio();
+        //if (folio == null) folio = "";
+        //byte[] folioBytes = folio.getBytes();
+        //dos.writeShort(folioBytes.length);
+        //dos.write(folioBytes);
     }
 
     public static Mensaje leer(Socket socket) throws IOException {

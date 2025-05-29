@@ -62,9 +62,9 @@ public class CelulaServidora {
                         ack.setNumeroServicio((short) 99);
                         ack.setEvento(recibido.getEvento());
                         ack.setDatos("ACK".getBytes());
-                        ack.setFolio(recibido.getFolio());
+                        //ack.setFolio(recibido.getFolio());
                         DecoderEncoder.escribir(socket, ack);
-                        LOGGER.info("ACK enviado para: " + recibido.getFolio());
+                        LOGGER.info("ACK enviado para: " + new String(recibido.getEvento()));
 
                         // Validar tamaño de datos
                         if (recibido.getDatos().length == 8) {
@@ -106,11 +106,11 @@ public class CelulaServidora {
                     respuesta.setHuella(HUELLA);
                     respuesta.setNumeroServicio((short) 5); // respuesta final
                     respuesta.setEvento(m.getEvento());
-                    respuesta.setFolio(m.getFolio());
+                    //respuesta.setFolio(m.getFolio());
                     respuesta.setDatos(ByteBuffer.allocate(4).putInt(resultado).array());
 
                     DecoderEncoder.escribir(socket, respuesta);
-                    LOGGER.info("Resultado enviado: " + resultado + " para " + m.getFolio());
+                    LOGGER.info("Resultado enviado: " + resultado + " para " + new String(m.getEvento()));
 
                 } catch (Exception e) {
                     LOGGER.error("Error en ejecución de servicios", e);
